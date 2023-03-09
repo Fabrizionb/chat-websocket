@@ -30,9 +30,9 @@ socket.on("messageLogs", (data) => {
 
 socket.on('user_connected', (data)=>{
     Swal.fire({
-        title: `${data.user} se acaba de conectar`,
+        title: `${data} se acaba de conectar`,
         toast: true,
-        position: "top-rigtht",
+        position: "top-right",
       }); 
 })
 
